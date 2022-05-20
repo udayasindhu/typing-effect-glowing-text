@@ -1,0 +1,30 @@
+#typer,
+#cursor {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  filter: blur(1px);
+  line-height: 75px;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #3f93b8, 0 0 20px #3f93b8, 0 0 40px #3f93b8,
+    0 0 80px #3f93b8, 0 0 120px #3f93b8;
+}
+
+#cursor {
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0% {
+    color: #fff;
+  }
+
+  50% {
+    color: transparent;
+  }
+
+  100% {
+    color: #fff;
+  }
+}
